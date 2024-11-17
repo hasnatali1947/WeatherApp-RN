@@ -9,7 +9,6 @@ export default function Forcast({ weatherData }) {
 
     const { location, current } = weatherData
 
-    console.log("weatherData", weatherData)
     if (!weatherData) {
         return <Text>Loading...</Text>;
     }
