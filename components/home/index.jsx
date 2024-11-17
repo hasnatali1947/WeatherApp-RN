@@ -27,16 +27,12 @@ export default function HomeScreen() {
     const locationEndPoint = (query) => `https://api.weatherapi.com/v1/search.json?key=${apiKey}&q=${query}`;
 
     const handleSearch = async (value) => {
-        console.log("value 1", value);
         try {
-            console.log("value 2", value);
             const response = await axios.get(locationEndPoint(value))
             setGetLocation(response.data)
-            console.log("response", getLocation);
             return response.data
         } catch (error) {
             console.error(error);
-            console.log("error", error);
             throw error;
         }
     }
@@ -50,7 +46,6 @@ export default function HomeScreen() {
             setLoading(true)
             const response = await axios.get(forecastEndPoint({ cityName: loc.name, days: 7 }))
             const data = response.data
-            console.log("Forcast weather :: ", data);
             setWeatherData(data)
             storeData("city", loc.name)
             setLoading(false)
@@ -58,7 +53,6 @@ export default function HomeScreen() {
             return data
         } catch (error) {
             console.error(error);
-            console.log("error", error);
             throw error;
         }
     }
@@ -68,7 +62,7 @@ export default function HomeScreen() {
         try {
             let city = await getData('city')
             let cityName = 'islamabad'
-            if(city){
+            if (city) {
                 cityName = city
             }
 
@@ -79,7 +73,6 @@ export default function HomeScreen() {
             return data
         } catch (error) {
             console.error(error);
-            console.log("error", error);
             throw error;
         }
     }
@@ -100,7 +93,7 @@ export default function HomeScreen() {
             {loading ?
                 (
                     <View style={styles.centeredContainer}>
-                        <Progress.CircleSnail thickness={10} size={140}  color="#0bb3b2" />
+                        <Progress.CircleSnail thickness={10} size={140} color="#0bb3b2" />
                     </View>
                 )
                 :
@@ -110,10 +103,10 @@ export default function HomeScreen() {
                             <View style={[styles.inputView, { backgroundColor: showSearch ? Theme.bgWhite(0.2) : "transparent" }]}>
 
                                 < TextInput
-                                    style={[styles.searchInput, {display: showSearch ? "flex" : "none"}]}
+                                    style={[styles.searchInput, { display: showSearch ? "flex" : "none" }]}
                                     onChangeText={handleTextDebounce}
                                     placeholder="Search City"
-                                placeholderTextColor="lightgray"
+                                    placeholderTextColor="lightgray"
                                 />
                                 <TouchableOpacity style={styles.searchbtn}
                                     onPress={() => setShowSearch(!showSearch)}
@@ -177,9 +170,9 @@ const styles = StyleSheet.create({
         zIndex: -1,
     },
     centeredContainer: {
-        flex: 1, 
-        justifyContent: 'center', 
-        alignItems: 'center', 
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
         // backgroundColor: '#f0f0f0', 
     },
     safeArea: {
