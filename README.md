@@ -1,50 +1,76 @@
-# Welcome to your Expo app 👋
+<img src="./fullImg.png" />
+<a name="readme-top"></a>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<!-- TABLE OF CONTENTS -->
 
-## Get started
+# 📗 Table of Contents
 
-1. Install dependencies
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
 
-   ```bash
-   npm install
-   ```
+<!-- PROJECT DESCRIPTION -->
 
-2. Start the app
+# 📖 [Weather App] <a name="about-project"></a>
 
-   ```bash
-    npx expo start
-   ```
+### Movie : A comprehensive weather app that keeps you prepared for any weather condition. Get real-time updates, check hourly and 7-day forecasts. With an intuitive design and cross-platform support, it's your perfect companion for staying ahead of the weather! 🌤️🌧️
 
-In the output, you'll find options to open the app in a
+### Search weather by city or location, access a clean and intuitive interface, and enjoy seamless cross-platform support. It's your ultimate weather companion for daily planning and travel! 🌤️🌧️
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🛠 Built With <a name="built-with"></a>
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- React Native Expo - Third-Party API - Axios - AsyncStorage
 
-## Get a fresh project
+### Tech Stack <a name="tech-stack"></a>
 
-When you're ready, run:
+<details>
+  <ul>
+    <li>React Native Expo</li>
+    <li>Third-Party API</li>
+    <li>React Navigation</li>
+    <li>Axios</li>
+    <li>AsyncStorage</li>
+  </ul>
+</details>
 
-```bash
-npm run reset-project
-```
+<!-- Features -->
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Key Features <a name="key-features"></a>
 
-## Learn more
+- **[Get Real-Time Weather Updates]**
+- **[View Days and Weekly Forecasts]**
+- **[Search Weather by City or Location]**
+- **[Enjoy a Clean and Intuitive Interface]**
+- **[Secure and Cross-Platform Support]**
 
-To learn more about developing your project with Expo, look at the following resources:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+<!-- AUTHORS -->
 
-## Join the community
+## 👥 Authors <a name="authors"></a>
 
-Join our community of developers creating universal apps.
+👤 **Hasnat khan**
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- GitHub: [@hasnatali1947](https://github.com/hasnatali1947)
+- Twitter: [@hasnatking1947](https://twitter.com/hasnatking1947)
+- LinkedIn: [Hasnat ali](https://www.linkedin.com/in/hasnattali/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project please leave a ⭐️
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
